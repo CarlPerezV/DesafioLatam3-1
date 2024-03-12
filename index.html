@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="main.js"></script>
+    <title>Desafio 2</title>
+</head>
+
+<body>
+    <aside class="ejercicio-1">
+        <h1>Ejercicio 1</h1>
+        <button id="imagen-e1" onclick="cambiaImg()">
+            <img id="imgBoton" class="img-boton" src="src/img/clarita-in.jpg" alt="">
+        </button>
+    </aside>
+
+    <aside class="ejercicio-2">
+        <h1>Ejercicio 2</h1>
+        <div class="contenedor-img">
+            <div class="card">
+                <img class="imagen-e2" src="src/img/cheems-00.jpg" alt="">
+                <input id="cant-ticket1" min="0" max="10" type="number">
+            </div>
+            <div class="card">
+                <img class="imagen-e2" src="src/img/cheems-01.jpg" alt="">
+                <input id="cant-ticket2" min="0" max="10" type="number">
+            </div>
+            <div class="card">
+                <img class="imagen-e2" src="src/img/cheems-02.png" alt="">
+                <input id="cant-ticket3" min="0" max="10" type="number">
+            </div>
+        </div>
+        <span id="msj-e2"></span>
+        <button onclick="verificarTickets()">Verificar</button>
+    </aside>
+
+    <aside class="ejercicio-3">
+        <h1>Ejercicio 3</h1>
+        <div class="contenedor-e3">
+            <h2>Ingresa la Pass</h2>
+
+            <select class="numeros" id="v1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+
+            <select class="numeros" id="v2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select class="numeros" id="v3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
+        <button class="" onclick="verificarPass()">Verificar</button>
+
+        <span id="msj-e3"></span>
+    </aside>
+
+</body>
+
+</html>

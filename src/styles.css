@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.ejercicio-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(225, 240, 240);
+    border-radius: 1rem;
+    height: 32rem;
+    width: 28rem;
+}
+
+#imagen-e1 {
+    width: auto;
+    height: auto;
+    padding: 2px;
+    margin: 10px;
+}
+
+.img-boton {
+    width: 99%;
+    height: auto;
+    background-size: cover;
+}
+
+.ejercicio-2 {
+    background-color: rgb(225, 240, 240);
+    border-radius: 1rem;
+    height: 25rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen-e2 {
+    width: 10rem;
+    height: 13rem;
+    border-radius: 2rem;
+}
+
+.contenedor-img {
+    display: flex;
+}
+
+.card {
+    text-align: center;
+}
+
+.card input {
+    width: 8rem;
+}
+
+.ejercicio-3 {
+    background-color: rgb(225, 240, 240);
+    height: 25rem;
+    width: 30rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.contenedor-e3 {
+    text-align: center;
+    font-size: x-large;
+}
+
+span {
+    margin: auto;
+    font-size: x-large;
+}
+
+button {
+    margin: auto;
+    width: 5rem;
+}
+
+.numeros {
+    width: 4rem;
+    height: 2rem;
+    font-size: large;
+    text-align: center;
+    margin-left: 10px;
+}
